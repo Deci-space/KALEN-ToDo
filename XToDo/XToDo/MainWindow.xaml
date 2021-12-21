@@ -20,7 +20,7 @@
                 <NavigationViewItemSeparator/>
             </NavigationView.MenuItems>
 
-            <Frame x:Name="ContentFrame"/>
+            <Frame x:Name="ContentFrame" Navigated="ContentFrame_OnNavigated"/>
 
         </NavigationView>
     </Grid>
