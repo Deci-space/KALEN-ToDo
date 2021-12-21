@@ -28,9 +28,16 @@ namespace XToDo
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private void NavigationView_OnLoaded(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+
+
         }
+
+        private void NavigationView_OnSelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        {
+        }
+
+
     }
 }
