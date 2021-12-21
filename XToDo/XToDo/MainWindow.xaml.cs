@@ -30,7 +30,15 @@ namespace XToDo
 
         private void NavigationView_OnLoaded(object sender, RoutedEventArgs e)
         {
+            //Load ToDoList from User Data
+            NavigationView.MenuItems.Add(new NavigationViewItem
+            {
+                Content = "Sample",
+                Icon = new SymbolIcon((Symbol)0xF1AD),
+                Tag = "Sample"
+            });
 
+            NavigationView.SelectedItem = NavigationView.MenuItems[0];
 
         }
 
