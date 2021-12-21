@@ -38,12 +38,14 @@ namespace XToDo
                 Tag = "Sample"
             });
 
+            // NavigationView doesn't load any page by default, so load home page.
             NavigationView.SelectedItem = NavigationView.MenuItems[0];
 
         }
 
         private void NavigationView_OnSelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
+
         }
 
 
