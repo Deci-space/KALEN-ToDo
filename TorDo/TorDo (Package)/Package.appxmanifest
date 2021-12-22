@@ -7,12 +7,12 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="07f6c227-2f87-496b-88d7-3fecf49df58b"
+    Name="38cb9948-0e94-422b-aef3-06be8860fd89"
     Publisher="CN=jiyup"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>XToDo (Package)</DisplayName>
+    <DisplayName>TorDo (Package)</DisplayName>
     <PublisherDisplayName>jiyup</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
@@ -31,8 +31,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="XToDo (Package)"
-        Description="XToDo (Package)"
+        DisplayName="TorDo (Package)"
+        Description="TorDo (Package)"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">

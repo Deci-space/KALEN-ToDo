@@ -12,12 +12,11 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using XToDo.pages;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace XToDo
+namespace TorDo
 {
     /// <summary>
     /// An empty window that can be used on its own or navigated to within a Frame.
