@@ -11,7 +11,7 @@
         <NavigationView x:Name="NavigationView"
                         IsBackButtonVisible="Collapsed"
                         IsSettingsVisible="True"
-                        Header="Default Header"
+                        PaneDisplayMode="Top"
                         Loaded="NavigationView_OnLoaded"
                         SelectionChanged="NavigationView_OnSelectionChanged">
 

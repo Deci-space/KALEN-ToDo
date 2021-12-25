@@ -62,8 +62,6 @@ namespace TorDo
         private void ContentFrame_OnNavigated(object sender, NavigationEventArgs e)
         {
             NavigationView.IsBackEnabled = ContentFrame.CanGoBack;
-
-            NavigationView.Header = ((NavigationViewItem)NavigationView.SelectedItem).Content.ToString();
         }
     }
 }
