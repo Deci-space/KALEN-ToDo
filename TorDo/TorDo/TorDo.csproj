@@ -10,9 +10,9 @@
     <UseWinUI>true</UseWinUI>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="pages\HomePage.xaml" />
-    <None Remove="pages\SettingsPage.xaml" />
-    <None Remove="pages\ToDoList.xaml" />
+    <None Remove="Views\HomePage.xaml" />
+    <None Remove="Views\SettingsPage.xaml" />
+    <None Remove="Views\ToDoList.xaml" />
   </ItemGroup>
 
   <ItemGroup>

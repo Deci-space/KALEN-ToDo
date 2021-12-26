@@ -12,6 +12,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using TorDo.Views;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -47,13 +48,13 @@ namespace TorDo
         {
             if (args.IsSettingsSelected == true)
             {
-                ContentFrame.Navigate(typeof(pages.SettingsPage), null, args.RecommendedNavigationTransitionInfo);
+                ContentFrame.Navigate(typeof(SettingsPage), null, args.RecommendedNavigationTransitionInfo);
             }
             else if (args.SelectedItemContainer != null)
             {
                 if (args.SelectedItemContainer.Tag.ToString() == "HomePage")
                 {
-                    ContentFrame.Navigate(typeof(pages.HomePage), null, args.RecommendedNavigationTransitionInfo);
+                    ContentFrame.Navigate(typeof(HomePage), null, args.RecommendedNavigationTransitionInfo);
                 }
             }
         }
