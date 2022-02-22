@@ -1,5 +1,6 @@
-# XToDo
-A simple ToDo application with Windows App SDK
+# ToDo
+A simple cross platform ToDo application
+
 
 ## Contributors
 Logo designed by [SeolMJ](https://github.com/SeolMJ)
